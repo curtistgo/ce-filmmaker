@@ -3,6 +3,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     display: flex;
+    color: black;
 }
 
 .curtis-film {
@@ -27,11 +28,18 @@
     margin-left: 1em;
     font-size: 1.5em;
     letter-spacing: 3px;
-    font-family: oswald, coda
+    font-family: oswald, coda;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0) 0px 0px 5px;
+    color: rgb(248, 240, 166) !important;
 }
 
 .navbar {
     padding: 0;
+    background: rgba(217, 217, 217, 0.5);
 }
 
 /* movie page */
