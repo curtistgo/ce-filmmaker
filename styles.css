@@ -29,10 +29,12 @@
     font-size: 1.5em;
     letter-spacing: 3px;
     font-family: oswald, coda;
+    justify-content: space-between;
 }
 
+
 .nav-link:hover {
-    font-weight: bold;
+    font-weight: normal;
     text-shadow: rgba(0, 0, 0) 0px 0px 5px;
     color: rgb(248, 240, 166) !important;
 }
@@ -85,6 +87,7 @@ h2 span {
     display: block;
     margin-bottom: 5px;
     font-size: 1.5em;
+
 }
 
 .input_box {
@@ -127,10 +130,6 @@ h2 span {
 
 @media screen and (max-width: 992px) {
 
-/* .img-form {
-    display: block;
-    margin-bottom: 10px;
-} */
 
 .form-fields {
     margin-left: -20px;
